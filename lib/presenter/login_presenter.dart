@@ -23,7 +23,7 @@ class LoginPresenter {
       if (phoneNumber == "12344" && password == "rido") {
         view.onLoginSuccess(); // Login berhasil
       } else {
-        view.showError("Nomor handphone  atau password salah."); // Login gagal
+        view.showError("Nomor handphone atau password salah."); // Login gagal
       }
     });
   }

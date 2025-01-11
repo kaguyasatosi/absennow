@@ -35,7 +35,7 @@ class _LoginViewState extends State<LoginView> {
         _isLoading = false;
       });
 
-      if (phoneNumber == "123" && password == "123") {
+      if (phoneNumber == "12345" && password == "123") {
         LoginNavigation.navigateToHome(context); // Navigasi ke Home
       } else {
         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
